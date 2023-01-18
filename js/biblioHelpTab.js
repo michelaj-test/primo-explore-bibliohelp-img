@@ -1,6 +1,6 @@
 /*
- * adding icon "ask the librarian" at the bottom of the page
- *(here prmViewOnlineAfter for test)
+ * adding button to BiblioHelp at the right edge of the page
+ *
  * mjm2022
  */
  
