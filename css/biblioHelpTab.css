@@ -1,0 +1,39 @@
+/*Uncomment the follwoing lines to move facets to the left*/
+
+.bibliohelp-tab {
+  position: fixed;
+  top:auto;
+  bottom:50%;
+  transform: rotate(-90deg);
+  transform-origin:bottom right;
+  right:0;
+  border: 0 none;
+  z-index: 200;
+  color: #FFF;
+  background: #D01616;
+}
+
+.bibliohelp-tab {
+  padding: 0px 10px;
+  font-size: 2.5em;
+  border-radius: 10px 10px;
+  font-weight: bold;
+}
+.bibliohelp-tab a{
+	
+  text-decoration:none;
+  color: #FFF;
+  white-space: nowrap;
+}
+.bibliohelp-tab img{	
+  margin: auto;
+}
+
+.bibliohelp-tab a:hover {
+  text-decoration:none;
+  color: #FFF;
+}
+.bibliohelp-tab: a:focus {
+  text-decoration:none;
+  color: #FFF;
+}
