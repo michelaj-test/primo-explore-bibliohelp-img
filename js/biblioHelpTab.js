@@ -1,13 +1,8 @@
 /*
- * adding button to BiblioHelp at the right edge of the page
- *
- * mjm2022
+ * adding icon "BiblioHelp" at the right edge of the page
  */
- 
-app.component('prmSilentLoginAfter', {
-    bindings: { },
-    template: `<div class="bibliohelp-tab">
-	<a title="Ask the librarian" href="https://unimi.libanswers.com/">BiblioHELP
-	<img src="/primo-explore/custom/NORTH/img/bibliohelp.png"></a></div>`
-});
 
+app.component('prmSilentLoginAfter', {
+	bindings: {},
+	template: '<div class="bibliohelp-tab"><a title="BiblioHELP" href="https://unimi.libanswers.com/"><img src="https://www.sba.unimi.it/img/layout/bibliohelp.png"></a></div>'
+});
