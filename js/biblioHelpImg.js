@@ -1,5 +1,5 @@
 /*
- * adding icon "BiblioHelp" at the right edge of the page
+ * adding "BiblioHelp" linked image at the right edge of the page
  */
 
 app.component('prmSilentLoginAfter', {
