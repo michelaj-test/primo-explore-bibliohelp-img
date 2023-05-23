@@ -1,25 +1,36 @@
-/* Stile per BiblioHelp tab */
+/*Stile per BiblioHelp tab*/
 
 /*dimensione e posizione per BiblioHelp tab*/
 .bibliohelp-tab {
   position: fixed;
-  top:auto;
-  bottom:10%;
+  top: auto;
+  bottom: 10%;
   right:0;
   border: 0 none;
   z-index: 200;
+  width: 36px;
   background: #FFF;
+  font-size: 100%;
+  font-weight: 600;
+  background-color: transparent;
 }
 
-/*immagine*/
-.bibliohelp-tab img{	
-  margin: 0px;
-  padding:0px;
-  text-decoration:none;
-}
 
 /*tolgo la sottolineatura per l'immagine per BiblioHelp tab*/
-.bibliohelp-tab a{	
+.bibliohelp-tab a img{	
   text-decoration: none;
+  border: none;
+}
 
-/* Fine Stile per BiblioHelp tab */
+@media only screen and (max-width: 965px) {
+   .bibliohelp-tab{
+    width: 25px;
+  }
+	
+  .bibliohelp-tab img{
+    width: 25px;
+    height: auto;
+  }
+}
+
+/*Fine Stile per BiblioHelp tab*/
