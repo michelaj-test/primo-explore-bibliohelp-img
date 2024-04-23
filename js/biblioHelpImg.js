@@ -4,5 +4,5 @@
 
 app.component('prmSilentLoginAfter', {
 	bindings: {},
-	template: `<div class="bibliohelp-tab"><a title="BiblioHELP" href="https://unimi.libanswers.com/"><img alt="BiblioHELP" src="https://www.sba.unimi.it/img/layout/bibliohelp.png"></a></div>`
+	template: `<div class="bibliohelp-tab"><a title="BiblioHELP" href="https://unimi.libanswers.com/"><img alt="BiblioHELP" src="/discovery/custom/39UMI_INST-VU2/img/bibliohelp.png"></a></div>`
 });
