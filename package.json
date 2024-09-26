@@ -1,0 +1,15 @@
+{
+  "name": "primo-explore-bibliohelp-img",
+  "version": "1.0.0",
+  "description": "add bibliohelp linkable image at primo right edge page",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michelaj-test/primo-explore-biblihelp-img.git"
+  },
+  "author": "MichelaJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michelaj-test/primo-explore-biblihelp-img/issues"
+  },
+  "homepage": "https://github.com/michelaj-test/primo-explore-biblihelp-img#readme"
+}
